@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Style CSS Files -->
+ 
+  <link rel="stylesheet" href="styles/css/signup.css">
+  <link href="styles/css/Index.css" rel="stylesheet">
+  <link href="styles/bootstrap/bootstrap.css" rel="stylesheet">
+
+  <link href="styles/animate.css/animate.css" rel="stylesheet">
+  <link href="styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="styles/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="styles/remixicon/remixicon.css">
+  <link rel="stylesheet" href="styles/swiper/swiper-bundle.min.css">
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Mountain View Manor</a></h1>
+     
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="Rersev.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Index.html" class="getstarted">Login</a></li>
+          <li><a href="Signup.html" class="getstarted">Book Now</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!--Sign Up-->
+
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-3 register-left">
+                    <img src="styles/css/mtD.jpg" alt=""/>
+                    <h3>Book Now</h3>
+                    <p>Enjoy your stay</p>
+                    <!-- <input type="submit" name="" value="Login"/><br/> -->
+                </div>
+                <div class="col-md-9 register-right">
+                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Customer</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
+                        </li> -->
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h3 class="register-heading">Sign Up as a Customer</h3>
+                            <div class="row register-form">
+                              <form id="frmSignUp">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="First Name *" value=""  id="txtfname" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Last Name *" value="" id="txtlname" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Address *" value="" id="txtaddress" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"  placeholder="Status*" value=""  id="txtstatus"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"  placeholder="Contact*" value=""  id="txtnumber"/>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Username *" value=""  id="txtuname" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Password *" value=""   id="txtpwd" required />
+                                    </div>
+                                    <input type="submit" class="btnRegister"  value="Register"/>
+                                </div>
+                              </form>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+<!--End Sign-->
+      
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top mt-2">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Mountain View Manor</h3>
+              <p>
+              
+              </p>
+             
+            </div>
+          </div>
+
+
+       
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mountain View Manor </span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+        Designed by <a href="">Team Buok</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Style JS Files -->
+
+  <script src="styles/glightbox/js/glightbox.min.js"></script>
+  <script src="styles/swiper/swiper-bundle.min.js"></script>
+  <script src="styles/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="styles/waypoints/noframework.waypoints.js"></script>
+  <script src="styles/php-email-form/validate.js"></script>
+
+  
+
+  <!-- Template Main JS File -->
+  <script src="styles/bootstrap/bootstrap.bundle.js"></script>
+  <script src="styles/bootstrap/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sUpIndex.js"></script>
+  <script>
+    $("#frmSignUp").submit(function(e){
+      e.preventDefault();
+      RegUser();
+    });
+  </script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MainForm</title>
+</head>
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Style CSS Files -->
+  <link href="styles/animate.css/animate.css" rel="stylesheet">
+  <link href="styles/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="styles/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="styles/remixicon/remixicon.css">
+  <link rel="stylesheet" href="styles/swiper/swiper-bundle.min.css">
+  <link href="styles/css/Index.css" rel="stylesheet">
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Mountain View Manor</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="About.html">About</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">Testimonials</a></li>
+
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="Rersev.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+
+          <li><a href="contactUs.html">Contact</a></li>
+          <li type="button" class="btn btn-success d-table  mx-auto ms-3" data-bs-toggle="modal" data-bs-target="#ModalForm">
+            Login
+          </li>
+
+          <!-- <li><a href="index.html" class="getstarted">Login</a></li> -->
+          <li><a href="Signup.html" class="getstarted">Book Now</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(styles/css/moutain.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mountain View Manor</span></h2>
+              <p class="animate__animated animate__fadeInUp">Start here, New Living and see life from a different perspective. This Hotel is your next space and the perfect place for getaways.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(styles/css/m2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Mountain View Manor</h2>
+              <p class="animate__animated animate__fadeInUp">Start here, New Living and see life from a different perspective. This Hotel is your next space and the perfect place for getaways.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(styles/css/m3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Mountain View Manor</h2>
+              <p class="animate__animated animate__fadeInUp">Start here, New Living and see life from a different perspective. This Hotel is your next space and the perfect place for getaways.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+
+     <!--Login-->
+
+  <!-- Modal Form -->
+  <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <!-- Login Form -->
+          <form id="frmLogin">
+            <div class="modal-header">
+              <h5 class="modal-title">Login Here</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                  <label for="Username">Username<span class="text-danger">*</span></label>
+                  <input type="text" name="username" class="form-control" id="txtusername" placeholder="Enter Username">
+              </div>
+  
+              <div class="mb-3">
+                  <label for="Password">Password<span class="text-danger">*</span></label>
+                  <input type="password" name="password" class="form-control" id="txtpassword" placeholder="Enter Password">
+              </div>
+              <div class="mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                  <label class="form-check-label" for="remember">Remember Me</label>
+                  <a href="#" class="float-end">Forgot Password</a>
+              </div>
+            </div>
+            <div class="modal-footer pt-4">                  
+              <button type="submit" class="btn btn-success mx-auto w-100">Login</button>
+            </div>
+            <p class="text-center">Not yet account, <a href="Signup.html">Signup</a></p> 
+        </form>
+      </div>
+    </div>
+  </div>
+        
+<!--End Login-->
+
+  <!-- </main> -->
+  <!-- End #main -->
+
+  
+ 
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Mountain View Manor</h3>
+              <p>
+              
+              </p>
+             
+            </div>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </div> 
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mountain View Manor </span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+    
+       
+        Designed by <a href="">Team Buok</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Style JS Files -->
+  <script src="styles/bootstrap/bootstrap.bundle.js"></script>
+  <script src="styles/glightbox/js/glightbox.min.js"></script>
+  <script src="styles/swiper/swiper-bundle.min.js"></script>
+  <script src="styles/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="styles/waypoints/noframework.waypoints.js"></script>
+  <script src="styles/php-email-form/validate.js"></script>
+  <script src="styles/bootstrap/jquery.min.js"></script>
+  <script>
+
+    $("#frmLogin").submit(function(e){
+      e.preventDefault();
+      loginUser();
+    });
+    
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+  <Script src="js/login.js"></Script>
+ 
+</body>
+</html>
